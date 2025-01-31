@@ -1,0 +1,47 @@
+p {
+    color: red;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: lightblue;
+}
+
+/* Estilos específicos para o div com ID "div" */
+#div {
+    border: 20px solid black; /* Define a largura, estilo e cor da borda */
+    background-color: aqua;   /* Cor de fundo */
+    padding: 15px;            /* Espaçamento interno */
+    margin: 20px;             /* Espaçamento externo */
+    position: relative;       /* Posição em relação ao fluxo normal */
+    top: 0;                   /* Alinha no topo */
+    left: 0;                  /* Alinha à esquerda */
+}
+
+/* Estilos gerais para todos os divs */
+div {
+    border: 2px solid black;  /* Define uma borda para outros divs */
+    padding: 10px;            /* Espaçamento interno */
+    margin: 20px;             /* Espaçamento externo */
+    display: block;           /* Mantém os divs como blocos padrão */
+}
+
+#div a {
+    color: darkblue;            /* Cor dos links */
+    text-decoration: none;      /* Remove sublinhado */
+}
+  
+#div a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+ul {
+    list-style-type: square;
+}
+
+img {
+    opacity: 0.8;
+}
+
