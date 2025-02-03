@@ -6,7 +6,7 @@ body {
     padding: 20px;
 }
 
-.app {
+#app {
     max-width: 400px;
     margin: auto;
     padding: 20px;
